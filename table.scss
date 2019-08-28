@@ -1,0 +1,109 @@
+@mixin flexcenter {
+
+    
+}
+
+
+
+
+.respo{
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+table{
+    height: 440px;
+    width: 870px;
+    font-family: 'Saira Stencil One', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table , td , tr {
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+
+td{
+    height: 23px;
+    width: 145px;
+}
+
+tr{
+    height: 23px;
+}
+
+.respo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uniquetd{
+    background: goldenrod;
+}
+
+.uniquetds{
+    background: gold;
+}
+
+.uniquetds:hover{
+    color: white
+}
+
+
+.greentd{
+    background: green;
+}
+
+
+.greentds{
+    background:#417d41;
+}
+
+.greentds:hover{
+    color: white
+}
+
+
+
+
+
+.enertd{
+    background: greenyellow;
+}
+
+.enertds{
+    background: #7aca00;
+}
+
+.enertds:hover{
+    color: white
+}
+
+
+.goldtd{
+    background: goldenrod;
+}
+
+.goldtds{
+    background: gold
+}
+
+.orangetd{
+    background: orange;
+
+}
+.orangetds{
+    background: #ffa500bd;
+}
+
+.redtd{
+    background: red;
+}
+
+.redtds{
+    background: #8c1111;
+}

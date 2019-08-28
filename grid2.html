@@ -1,0 +1,1281 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+  
+    <div class="grid-container">
+        <div class="d1" id="d1">
+                
+        </div>
+        <div class="g1" id="g1"> 
+
+        </div>
+        <div class="center">
+          <button style="background: gray" class="brk-btn">Sniper Rifles</button>
+          <button onclick="openNavG7()" class="brk-btnorange"> G7 Scout </button>
+          <button onclick="openNavLong()" class="brk-btngreen"> Longbow </button>
+          <button onclick="openNavTriple()" class="brk-btnener"> Triple Take </button>
+          <button onclick="openNavKraber()" class="brk-btngold"> Kraber </button>
+         
+         
+          <button style="background: gray" class="brk-btn">Pistol</button>
+          <button onclick="openNavWing()" class="brk-btngreen"> Wingman </button>
+          <button onclick="openNavRE()" class="brk-btnorange"> RE-45 </button>
+          <button onclick="openNavP20()" class="brk-btnorange"> P2020 </button>
+          
+          <button style="background: gray" class="brk-btn">Light Machine Guns</button>
+          <button onclick="openNavSpit()" class="brk-btngreen"> Spitfire</button>
+          <button onclick="openNavDevot()" class="brk-btnener"> Devotion </button>
+          <button onclick="openNavStar()" class="brk-btngold"> L-Star </button>
+
+          <button style="background: gray" class="brk-btn">Sub Machine Guns</button>
+          <button onclick="openNavProw()" class="brk-btngreen"> Prowler </button>
+          <button onclick="openNav99()" class="brk-btnorange"> R-99 </button>
+          <button onclick="openNavAlt()" class="brk-btnorange"> Alternator </button>
+          
+          <button style="background: gray" class="brk-btn">Shotgun</button>
+          <button onclick="openNavMoz()" class="brk-btnred"> Mozambique </button>
+          <button onclick="openNavMas()" class="brk-btngold"> Mastiff </button>
+          <button onclick="openNavPeace()" class="brk-btnred"> Peacekeeper </button>
+          <button onclick="openNavEve()" class="brk-btnred"> Eva-8 Auto  </button>
+          
+
+          <button style="background: gray" class="brk-btn">Assault Rifles</button>
+          <button onclick="openNavFlat()" class="brk-btngreen"> Flatline </button>
+          <button onclick="openNavHem()" class="brk-btngreen"> Hemlok</button>
+          <button onclick="openNav301()" class="brk-btnorange"> R-301 </button>
+          <button onclick="openNavHavoc()" class="brk-btnener"> Havoc </button>
+    
+
+        </div>
+      </div>
+
+      <div class="contactform">
+      
+      </div>
+     
+
+      <div id="mySidenav" class="respo">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNavG7()">&times;</a>
+        <div class="tg-wap"><table >
+            <tbody>
+            <tr >
+            <td class="orangetd" >&nbsp;Weapon</td>
+            <td class="orangetds">&nbsp;G7 Scout</td>
+            <td class="orangetd">&nbsp;Fire mode</td>
+            <td class="orangetds" >&nbsp;Single</td>
+            <td class="orangetd" >&nbsp;Ammo</td>
+            <td class="orangetds" >&nbsp;Light</td>
+            </tr>
+            <tr>
+            <td class="orangetd" >&nbsp;Mag size</td>
+            <td class="orangetds" >&nbsp;10</td>
+            <td class="orangetd" >&nbsp;Body Dmg</td>
+            <td class="orangetds">&nbsp;30</td>
+            <td class="orangetd">&nbsp;Leg Dmg</td>
+            <td class="orangetds">&nbsp;name</td>
+            </tr>
+            <tr>
+            <td class="orangetd">&nbsp;Head Dmg</td>
+            <td class="orangetds">&nbsp;60</td>
+            <td class="orangetd">&nbsp;Total Dmg body</td>
+            <td class="orangetds">&nbsp;300</td>
+            <td class="orangetd">&nbsp;Total dmg head</td>
+            <td class="orangetds">&nbsp;600</td>
+            </tr>
+            <tr>
+            <td class="orangetd">&nbsp;Reload Time</td>
+            <td class="orangetds">&nbsp;2.4s</td>
+            <td class="orangetd">&nbsp;Draw time</td>
+            <td class="orangetds">&nbsp;0.9s</td>
+            <td class="orangetd">&nbsp;Shield C(50)</td>
+            <td class="orangetds">&nbsp;5/3</td>
+            </tr>
+            <tr>
+            <td class="orangetd">&nbsp;Shield R(75)</td>
+            <td class="orangetds">&nbsp;4/3</td>
+            <td class="orangetd">&nbsp;Shield E(100) </td>
+            <td class="orangetds">&nbsp;8/4</td>
+            <td class="orangetd">Shield L(100)</td>
+            <td class="orangetds">&nbsp;8/4</td>
+            </tr>
+            </tbody>
+            </table></div>
+      </div>
+
+
+      <div class="respo" id="respokraber" >
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNavKraber()">&times;</a>
+
+      <table >
+              <tbody>
+              <tr >
+              <td class="uniquetd">&nbsp;Weapon</td>
+              <td class="uniquetds">&nbsp;Kraber</td>
+              <td class="uniquetd">&nbsp;Fire mode</td>
+              <td class="uniquetds">&nbsp;Single</td>
+              <td class="uniquetd">&nbsp;Ammo</td>
+              <td class="uniquetds">&nbsp;Unique</td>
+              </tr>
+              <tr>
+              <td class="uniquetd">&nbsp;Mag size</td>
+              <td class="uniquetds">&nbsp;4</td>
+              <td class="uniquetd">&nbsp;Body Dmg</td>
+              <td class="uniquetds">&nbsp;125</td>
+              <td class="uniquetd">Leg Dmg</td>
+              <td class="uniquetds">&nbsp;95</td>
+              </tr>
+              <tr>
+              <td class="uniquetd">&nbsp;Head Dmg</td>
+              <td class="uniquetds">&nbsp;250</td>
+              <td class="uniquetd">&nbsp;Total Dmg body</td>
+              <td class="uniquetds">&nbsp;500</td>
+              <td class="uniquetd">&nbsp;Total dmg head</td>
+              <td class="uniquetds">&nbsp;1000</td>
+              </tr>
+              <tr>
+              <td class="uniquetd">&nbsp;Reload Time</td>
+              <td class="uniquetds">&nbsp;3.2s</td>
+              <td class="uniquetd">&nbsp;Draw time</td>
+              <td class="uniquetds">&nbsp;1.2s</td>
+              <td class="uniquetd">&nbsp;Shield C(50)</td>
+              <td class="uniquetds">&nbsp;1</td>
+              </tr>
+              <tr>
+              <td class="uniquetd">&nbsp;Shield R(75)</td>
+              <td class="uniquetds">&nbsp;2/1</td>
+              <td class="uniquetd">&nbsp;Shield E(100) </td>
+              <td class="uniquetds">&nbsp;2/2</td>
+              <td class="uniquetd">&nbsp;Shield L(100)</td>
+              <td class="uniquetds">&nbsp;2/2</td>
+              </tr>
+              </tbody>
+              </table>
+          </div>
+          <div class="respo" id="respokraber" >
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNavKraber()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="uniquetd">&nbsp;Weapon</td>
+                  <td class="uniquetds">&nbsp;Kraber</td>
+                  <td class="uniquetd">&nbsp;Fire mode</td>
+                  <td class="uniquetds">&nbsp;Single</td>
+                  <td class="uniquetd">&nbsp;Ammo</td>
+                  <td class="uniquetds">&nbsp;Unique</td>
+                  </tr>
+                  <tr>
+                  <td class="uniquetd">&nbsp;Mag size</td>
+                  <td class="uniquetds">&nbsp;4</td>
+                  <td class="uniquetd">&nbsp;Body Dmg</td>
+                  <td class="uniquetds">&nbsp;125</td>
+                  <td class="uniquetd">Leg Dmg</td>
+                  <td class="uniquetds">&nbsp;95</td>
+                  </tr>
+                  <tr>
+                  <td class="uniquetd">&nbsp;Head Dmg</td>
+                  <td class="uniquetds">&nbsp;250</td>
+                  <td class="uniquetd">&nbsp;Total Dmg body</td>
+                  <td class="uniquetds">&nbsp;500</td>
+                  <td class="uniquetd">&nbsp;Total dmg head</td>
+                  <td class="uniquetds">&nbsp;1000</td>
+                  </tr>
+                  <tr>
+                  <td class="uniquetd">&nbsp;Reload Time</td>
+                  <td class="uniquetds">&nbsp;3.2s</td>
+                  <td class="uniquetd">&nbsp;Draw time</td>
+                  <td class="uniquetds">&nbsp;1.2s</td>
+                  <td class="uniquetd">&nbsp;Shield C(50)</td>
+                  <td class="uniquetds">&nbsp;1</td>
+                  </tr>
+                  <tr>
+                  <td class="uniquetd">&nbsp;Shield R(75)</td>
+                  <td class="uniquetds">&nbsp;2/1</td>
+                  <td class="uniquetd">&nbsp;Shield E(100) </td>
+                  <td class="uniquetds">&nbsp;2/2</td>
+                  <td class="uniquetd">&nbsp;Shield L(100)</td>
+                  <td class="uniquetds">&nbsp;2/2</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+                  
+  
+  
+          <div class="respo" id="respoLong" >
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavLong()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="greentd">&nbsp;Weapon</td>
+                  <td class="greentds">&nbsp;Longbow</td>
+                  <td class="greentd">&nbsp;Fire mode</td>
+                  <td class="greentds">&nbsp;Single</td>
+                  <td class="greentd">&nbsp;Ammo</td>
+                  <td class="greentds">&nbsp;Heavy</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Mag size</td>
+                  <td class="greentds">&nbsp;5</td>
+                  <td class="greentd">&nbsp;Body Dmg</td>
+                  <td class="greentds">&nbsp;55</td>
+                  <td class="greentd">Leg Dmg</td>
+                  <td class="greentds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Head Dmg</td>
+                  <td class="greentds">&nbsp;110</td>
+                  <td class="greentd">&nbsp;Total Dmg body</td>
+                  <td class="greentds">&nbsp;275</td>
+                  <td class="greentd">&nbsp;Total dmg head</td>
+                  <td class="greentds">&nbsp;550</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Reload Time</td>
+                  <td class="greentds">&nbsp;2.66</td>
+                  <td class="greentd">&nbsp;Draw time</td>
+                  <td class="greentds">&nbsp;0.9</td>
+                  <td class="greentd">&nbsp;Shield C(50)</td>
+                  <td class="greentds">&nbsp;3/2</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Shield R(75)</td>
+                  <td class="greentds">&nbsp;4/2</td>
+                  <td class="greentd">&nbsp;Shield E(100) </td>
+                  <td class="greentds">&nbsp;4/2</td>
+                  <td class="greentd">Shield L(100)</td>
+                  <td class="greentds">&nbsp;4/2</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+  
+  
+          <div class="respo"id="respoG7" >
+                  <a href="javascript:void(0)" class="closebtn" onclick=" closeNavG7()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="orangetd" >&nbsp;Weapon</td>
+                  <td class="orangetds">&nbsp;G7 Scout</td>
+                  <td class="orangetd">&nbsp;Fire mode</td>
+                  <td class="orangetds" >&nbsp;Single</td>
+                  <td class="orangetd" >&nbsp;Ammo</td>
+                  <td class="orangetds" >&nbsp;Light</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd" >&nbsp;Mag size</td>
+                  <td class="orangetds" >&nbsp;10</td>
+                  <td class="orangetd" >&nbsp;Body Dmg</td>
+                  <td class="orangetds">&nbsp;30</td>
+                  <td class="orangetd">&nbsp;Leg Dmg</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Head Dmg</td>
+                  <td class="orangetds">&nbsp;60</td>
+                  <td class="orangetd">&nbsp;Total Dmg body</td>
+                  <td class="orangetds">&nbsp;300</td>
+                  <td class="orangetd">&nbsp;Total dmg head</td>
+                  <td class="orangetds">&nbsp;600</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Reload Time</td>
+                  <td class="orangetds">&nbsp;2.4s</td>
+                  <td class="orangetd">&nbsp;Draw time</td>
+                  <td class="orangetds">&nbsp;0.9s</td>
+                  <td class="orangetd">&nbsp;Shield C(50)</td>
+                  <td class="orangetds">&nbsp;5/3</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Shield R(75)</td>
+                  <td class="orangetds">&nbsp;4/3</td>
+                  <td class="orangetd">&nbsp;Shield E(100) </td>
+                  <td class="orangetds">&nbsp;8/4</td>
+                  <td class="orangetd">Shield L(100)</td>
+                  <td class="orangetds">&nbsp;8/4</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+                  
+  
+  
+          <div class="respo"id="respoTriple" >
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavTriple()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="enertd">&nbsp;Weapon</td>
+                  <td class="enertds">&nbsp;Triple Take</td>
+                  <td class="enertd">&nbsp;Fire mode</td>
+                  <td class="enertds">&nbsp;Single</td>
+                  <td class="enertd">&nbsp;Ammo</td>
+                  <td class="enertds">&nbsp;Energy</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Mag size</td>
+                  <td class="enertds">&nbsp;5</td>
+                  <td class="enertd">&nbsp;Body Dmg</td>
+                  <td class="enertds">&nbsp;69(23*3)</td>
+                  <td class="enertd">&nbsp;Leg Dmg</td>
+                  <td class="enertds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Head Dmg</td>
+                  <td class="enertds">&nbsp;138(46*3)</td>
+                  <td class="enertd">&nbsp;Total Dmg body</td>
+                  <td class="enertds">&nbsp;345(115*3)</td>
+                  <td class="enertd">&nbsp;Total dmg head</td>
+                  <td class="enertds">&nbsp;680(230*3)</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Reload Time</td>
+                  <td class="enertds">&nbsp;2.6s</td>
+                  <td class="enertd">&nbsp;Draw time</td>
+                  <td class="enertds">&nbsp;0.9s</td>
+                  <td class="enertd">&nbsp;Shield C(50)</td>
+                  <td class="enertds">&nbsp;3(7)/2(4)</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Shield R(75)</td>
+                  <td class="enertd">&nbsp;4(8)/2(4)</td>
+                  <td class="enertd">&nbsp;Shield E(100) </td>
+                  <td class="enertds">&nbsp;4(10)/3(5)</td>
+                  <td class="enertd">&nbsp;Shield L(100)</td>
+                  <td class="enertds">&nbsp;4(10)/3(5)</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+  
+  
+          <div class="respo"id="respoHem">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavHem()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="greentd">&nbsp;Weapon</td>
+                  <td class="greentds">&nbsp;Hemlok</td>
+                  <td class="greentd">&nbsp;Fire mode</td>
+                  <td class="greentds">&nbsp;Burst/single</td>
+                  <td class="greentd">Ammo</td>
+                  <td class="greentds">&nbsp;Heavy</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Mag size</td>
+                  <td class="greentds">&nbsp;18</td>
+                  <td class="greentd">&nbsp;Body Dmg</td>
+                  <td class="greentds">&nbsp;18</td>
+                  <td class="greentd">Leg Dmg</td>
+                  <td class="greentds">&nbsp;14</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Head Dmg</td>
+                  <td class="greentds">&nbsp;36</td>
+                  <td class="greentd">&nbsp;Total Dmg body</td>
+                  <td class="greentds">&nbsp;324</td>
+                  <td class="greentd">&nbsp;Total dmg head</td>
+                  <td class="greentds">&nbsp;628</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Reload Time</td>
+                  <td class="greentds">&nbsp;2.4s</td>
+                  <td class="greentd">&nbsp;Draw time</td>
+                  <td class="greentds">&nbsp;0.6s</td>
+                  <td class="greentd"> &nbsp;Shield C(50)</td>
+                  <td class="greentds">&nbsp;9/5</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Shield R(75)</td>
+                  <td class="greentds">&nbsp;10/5</td>
+                  <td class="greentd">&nbsp;Shield E(100) </td>
+                  <td class="greentds">&nbsp;12/6</td>
+                  <td class="greentd">Shield L(100)</td>
+                  <td class="greentds">&nbsp;12/6</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+                  
+  
+  
+          <div class="respo"id="respoFlat" >
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavFlat()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="greentd">Weapon&nbsp;</td>
+                  <td class="greentds">&nbsp;Flatline</td>
+                  <td class="greentd">&nbsp;Fire mode</td>
+                  <td class="greentds">&nbsp;Auto/single</td>
+                  <td class="greentd">Ammo</td>
+                  <td class="greentds">&nbsp;Heavy</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd"> &nbsp;Mag size</td>
+                  <td class="greentds">&nbsp;20</td>
+                  <td class="greentd">&nbsp;Body Dmg</td>
+                  <td class="greentds">&nbsp;19</td>
+                  <td class="greentd">Leg Dmg</td>
+                  <td class="greentds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Head Dmg</td>
+                  <td class="greentds">&nbsp;38</td>
+                  <td class="greentd">&nbsp;Total Dmg body</td>
+                  <td class="greentds">&nbsp;380</td>
+                  <td class="greentd">&nbsp;Total dmg head</td>
+                  <td class="greentds">&nbsp;760</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Reload Time</td>
+                  <td class="greentds">&nbsp;2.6s</td>
+                  <td class="greentd">&nbsp;Draw time</td>
+                  <td class="greentds">&nbsp;0.6s</td>
+                  <td class="greentd">&nbsp;Shield C(50)</td>
+                  <td class="greentds">&nbsp;8/5</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Shield R(75)</td>
+                  <td class="greentds">&nbsp;9/6</td>
+                  <td class="greentd">&nbsp;Shield E(100) </td>
+                  <td class="greentds">&nbsp;11/7</td>
+                  <td class="greentd">Shield L(100)</td>
+                  <td class="greentds">&nbsp;11/7</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+  
+  
+          <div class="respo"id="respoR30" >
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav301()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="orangetd">&nbsp;Weapon</td>
+                  <td class="orangetds">&nbsp;R-301</td>
+                  <td class="orangetd">&nbsp;Fire mode</td>
+                  <td class="orangetds">&nbsp;Auto/Single</td>
+                  <td class="orangetd">&nbsp;Ammo</td>
+                  <td class="orangetds">&nbsp;Light</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Mag size</td>
+                  <td class="orangetds"> &nbsp;18</td>
+                  <td class="orangetd">&nbsp;Body Dmg</td>
+                  <td class="orangetds">&nbsp;14</td>
+                  <td class="orangetd">&nbsp;Leg Dmg</td>
+                  <td class="orangetds">&nbsp;11</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Head Dmg</td>
+                  <td class="orangetds">&nbsp;28</td>
+                  <td class="orangetd">&nbsp;Total Dmg body</td>
+                  <td class="orangetds">&nbsp;252</td>
+                  <td class="orangetd">&nbsp;Total dmg head</td>
+                  <td class="orangetds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Reload Time</td>
+                  <td class="orangetds">&nbsp;2.4s</td>
+                  <td class="orangetd">&nbsp;Draw time</td>
+                  <td class="orangetds">&nbsp;0.6s</td>
+                  <td class="orangetd">&nbsp;Shield C(50)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Shield R(75)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Shield E(100) </td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Shield L(100)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+                  
+  
+  
+          <div class="respo" id="respoHav">
+                  <a href="javascript:void(0)" class="closebtn" onclick=" closeNavHavoc()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="enertd">&nbsp;Weapon</td>
+                  <td class="enertds">&nbsp;Havoc</td>
+                  <td class="enertd">&nbsp;Fire mode</td>
+                  <td class="enertds">&nbsp;Auto/single</td>
+                  <td class="enertd">&nbsp;Ammo</td>
+                  <td class="enertds">&nbsp;Energy</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Mag size</td>
+                  <td class="enertds">&nbsp;25</td>
+                  <td class="enertd">&nbsp;Body Dmg</td>
+                  <td class="enertds">&nbsp;18</td>
+                  <td class="enertd">&nbsp;Leg Dmg</td>
+                  <td class="enertds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Head Dmg</td>
+                  <td class="enertds">&nbsp;36</td>
+                  <td class="enertd">&nbsp;Total Dmg body</td>
+                  <td class="enertds">&nbsp;450</td>
+                  <td class="enertd">&nbsp;Total dmg head</td>
+                  <td class="enertds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Reload Time</td>
+                  <td class="enertds">&nbsp;2.6s</td>
+                  <td class="enertd">&nbsp;Draw time</td>
+                  <td class="enertds">&nbsp;name</td>
+                  <td class="enertd">&nbsp;Shield C(50)</td>
+                  <td class="enertds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Shield R(50)</td>
+                  <td class="enertds">&nbsp;name</td>
+                  <td class="enertd">&nbsp;Shield E(75) </td>
+                  <td class="enertds">&nbsp;name</td>
+                  <td class="enertd">Shield L(100)</td>
+                  <td class="enertds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+  
+  
+          <div class="respo" id="respoSpit">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavSpit()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="greentd">&nbsp;Weapon</td>
+                  <td class="greentds">&nbsp;Spitfire</td>
+                  <td class="greentd">&nbsp;Fire mode</td>
+                  <td class="greentds">&nbsp;Auto</td>
+                  <td class="greentd">&nbsp;Ammo</td>
+                  <td class="greentds">&nbsp;Heavy</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Mag size</td>
+                  <td class="greentds">&nbsp;35</td>
+                  <td class="greentd">&nbsp;Body Dmg</td>
+                  <td class="greentds">&nbsp;18</td>
+                  <td class="greentd">&nbsp;Leg Dmg</td>
+                  <td class="greentds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Head Dmg</td>
+                  <td class="greentds">&nbsp;36</td>
+                  <td class="greentd">&nbsp;Total Dmg body</td>
+                  <td class="greentds">&nbsp;700</td>
+                  <td class="greentd">&nbsp;Total dmg head</td>
+                  <td class="greentds">&nbsp;1400</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Reload Time</td>
+                  <td class="greentds">&nbsp;2.8s</td>
+                  <td class="greentd">&nbsp;Draw time</td>
+                  <td class="greentds">&nbsp;0.7s</td>
+                  <td class="greentd">&nbsp;Shield C(50)</td>
+                  <td class="greentds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Shield R(50)</td>
+                  <td class="greentds">&nbsp;name</td>
+                  <td class="greentd">&nbsp;Shield E(75) </td>
+                  <td class="greentds">&nbsp;name</td>
+                  <td class="greentd">&nbsp;Shield L(100)</td>
+                  <td class="greentds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+                  
+  
+  
+          <div class="respo" id="respoDevo">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavDevot()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="enertd">&nbsp;Weapon</td>
+                  <td class="enertd">&nbsp;Devotion</td>
+                  <td class="enertd">&nbsp;Fire mode</td>
+                  <td class="enertds">&nbsp;Auto</td>
+                  <td class="enertd">&nbsp;Ammo</td>
+                  <td class="enertds">&nbsp;Heavy</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Mag size</td>
+                  <td class="enertds">&nbsp;44</td>
+                  <td class="enertd">&nbsp;Body Dmg</td>
+                  <td class="enertds">&nbsp;17</td>
+                  <td class="enertd">&nbsp;Leg Dmg</td>
+                  <td class="enertds"> &nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Head Dmg</td>
+                  <td class="enertds">&nbsp;34</td>
+                  <td class="enertd">&nbsp;Total Dmg body</td>
+                  <td class="enertds">&nbsp;784</td>
+                  <td class="enertd">&nbsp;Total dmg head</td>
+                  <td class="enertds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Reload Time</td>
+                  <td class="enertds">&nbsp;2. 8s</td>
+                  <td class="enertd"> &nbsp;Draw time</td>
+                  <td class="enertds">&nbsp;0.7s</td>
+                  <td class="enertd">&nbsp;Shield C(50)</td>
+                  <td class="enertds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="enertd">&nbsp;Shield R(50)</td>
+                  <td class="enertds">&nbsp;name</td>
+                  <td class="enertd">&nbsp;Shield E(75) </td>
+                  <td class="enertds">&nbsp;name</td>
+                  <td class="enertd">Shield L(100)</td>
+                  <td class="enertds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+  
+  
+          <div class="respo" id="respoStar">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavStar()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="goldtd">&nbsp;Weapon</td>
+                  <td class="goldtds">&nbsp;L-star</td>
+                  <td class="goldtd">&nbsp;Fire mode</td>
+                  <td class="goldtds"> &nbsp;Auto</td>
+                  <td class="goldtds">&nbsp;Ammo</td>
+                  <td class="goldtd">&nbsp;Unique</td>
+                  </tr>
+                  <tr>
+                  <td class="goldtd">&nbsp;Mag size</td>
+                  <td class="goldtds">&nbsp;40</td>
+                  <td class="goldtd">&nbsp;Body Dmg</td>
+                  <td class="goldtds">&nbsp;21</td>
+                  <td class="goldtd">Leg Dmg</td>
+                  <td class="goldtds">&nbsp;17</td>
+                  </tr>
+                  <tr>
+                  <td class="goldtd">&nbsp;Head Dmg</td>
+                  <td class="goldtds">&nbsp;42</td>
+                  <td class="goldtd">&nbsp;Total Dmg body</td>
+                  <td class="goldtds">&nbsp;Name</td>
+                  <td class="goldtd"> &nbsp;Total dmg head</td>
+                  <td class="goldtds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="goldtd">&nbsp;Reload Time</td>
+                  <td class="goldtds">&nbsp;Name</td>
+                  <td class="goldtd">&nbsp;Draw time</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  <td class="goldtd">&nbsp;Shield C(50)</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="goldtd">&nbsp;Shield R(50)</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  <td class="goldtd">&nbsp;Shield E(75) </td>
+                  <td class="goldtds">&nbsp;name</td>
+                  <td class="goldtd">Shield L(100)</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+                  
+  
+  
+          <div class="respo" id="respoR99">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav99()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="orangetd">Weapon&nbsp;</td>
+                  <td class="orangetds">&nbsp;R-99</td>
+                  <td class="orangetd">&nbsp;Fire mode</td>
+                  <td class="orangetds">&nbsp;Auto</td>
+                  <td class="orangetd">Ammo</td>
+                  <td class="orangetds">&nbsp;Light </td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Mag size</td>
+                  <td class="orangetds">&nbsp;18</td>
+                  <td class="orangetd">&nbsp;Body Dmg</td>
+                  <td class="orangetds">&nbsp;12</td>
+                  <td class="orangetd">Leg Dmg</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Head Dmg</td>
+                  <td class="orangetds">&nbsp;18</td>
+                  <td class="orangetd">&nbsp;Total Dmg body</td>
+                  <td class="orangetds">&nbsp;216</td>
+                  <td class="orangetd">&nbsp;Total dmg head</td>
+                  <td class="orangetds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Reload Time</td>
+                  <td class="orangetds">&nbsp;1.8s</td>
+                  <td class="orangetd">&nbsp;Draw time</td>
+                  <td class="orangetds">&nbsp;0.35s</td>
+                  <td class="orangetd">&nbsp;Shield C(50)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Shield R(50)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Shield E(75) </td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">Shield L(100)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+  
+          <div class="respo" id="respoAlter">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavAlt()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="orangetd">Weapon&nbsp;</td>
+                  <td class="orangetds">&nbsp;Alternator</td>
+                  <td class="orangetd">&nbsp;Fire mode</td>
+                  <td class="orangetds">&nbsp;Auto</td>
+                  <td class="orangetd">Ammo</td>
+                  <td class="orangetds">&nbsp;Light</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Mag size</td>
+                  <td class="orangetds">&nbsp;16</td>
+                  <td class="orangetd">&nbsp;Body Dmg</td>
+                  <td class="orangetds">&nbsp;15</td>
+                  <td class="orangetd">Leg Dmg</td>
+                  <td class="orangetds">&nbsp;12</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Head Dmg</td>
+                  <td class="orangetds">&nbsp;22</td>
+                  <td class="orangetd">&nbsp;Total Dmg body</td>
+                  <td class="orangetds">&nbsp;208</td>
+                  <td class="orangetd">&nbsp;Total dmg head</td>
+                  <td class="orangetds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Reload Time</td>
+                  <td class="orangetds">&nbsp;1.9s</td>
+                  <td class="orangetd">&nbsp;Draw time</td>
+                  <td class="orangetds">&nbsp;0.35s</td>
+                  <td class="orangetd">&nbsp;Shield C(50)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Shield R(50)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Shield E(75) </td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">Shield L(100)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+          <div class="respo" id="respoProw">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavProw()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="greentd">&nbsp;Weapon</td>
+                  <td class="greentds">&nbsp;Prowler</td>
+                  <td class="greentd">&nbsp;Fire mode</td>
+                  <td class="greentds">&nbsp;Single</td>
+                  <td class="greentd">&nbsp;Ammo</td>
+                  <td class="greentds">&nbsp;Heavy</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Mag size</td>
+                  <td class="greentds">&nbsp;5</td>
+                  <td class="greentd">&nbsp;Body Dmg</td>
+                  <td class="greentds">&nbsp;55</td>
+                  <td class="greentd">Leg Dmg</td>
+                  <td class="greentds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Head Dmg</td>
+                  <td class="greentds">&nbsp;110</td>
+                  <td class="greentd">&nbsp;Total Dmg body</td>
+                  <td class="greentds">&nbsp;275</td>
+                  <td class="greentd">&nbsp;Total dmg head</td>
+                  <td class="greentds">&nbsp;550</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Reload Time</td>
+                  <td class="greentds">&nbsp;2.66</td>
+                  <td class="greentd">&nbsp;Draw time</td>
+                  <td class="greentds">&nbsp;0.9</td>
+                  <td class="greentd">&nbsp;Shield C(50)</td>
+                  <td class="greentds">&nbsp;3/2</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Shield R(75)</td>
+                  <td class="greentds">&nbsp;4/2</td>
+                  <td class="greentd">&nbsp;Shield E(100) </td>
+                  <td class="greentds">&nbsp;4/2</td>
+                  <td class="greentd">Shield L(100)</td>
+                  <td class="greentds">&nbsp;4/2</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+  
+         
+          <div class="respo" id="respoMast">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavMas()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="goldtd">&nbsp;Weapon</td>
+                  <td class="goldtds">&nbsp;Mastiff</td>
+                  <td class="goldtd">&nbsp;Fire mode</td>
+                  <td class="goldtds"> &nbsp;name</td>
+                  <td class="goldtds">&nbsp;Ammo</td>
+                  <td class="goldtd">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="goldtd">&nbsp;Mag size</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  <td class="goldtd">&nbsp;Body Dmg</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  <td class="goldtd">Leg Dmg</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="goldtd">&nbsp;Head Dmg</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  <td class="goldtd">&nbsp;Total Dmg body</td>
+                  <td class="goldtds">&nbsp;Name</td>
+                  <td class="goldtd"> &nbsp;Total dmg head</td>
+                  <td class="goldtds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="goldtd">&nbsp;Reload Time</td>
+                  <td class="goldtds">&nbsp;Name</td>
+                  <td class="goldtd">&nbsp;Draw time</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  <td class="goldtd">&nbsp;Shield C(50)</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="goldtd">&nbsp;Shield R(50)</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  <td class="goldtd">&nbsp;Shield E(75) </td>
+                  <td class="goldtds">&nbsp;name</td>
+                  <td class="goldtd">Shield L(100)</td>
+                  <td class="goldtds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+          <div class="respo" id="respoEve">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavEve()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="redtd">&nbsp;Weapon</td>
+                  <td class="redtds">&nbsp;Eva-8 Auto</td>
+                  <td class="redtd">&nbsp;Fire mode</td>
+                  <td class="redtds"> &nbsp;name</td>
+                  <td class="redtd">&nbsp;Ammo</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Mag size</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Body Dmg</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">Leg Dmg</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Head Dmg</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Total Dmg body</td>
+                  <td class="redtds">&nbsp;Name</td>
+                  <td class="redtd"> &nbsp;Total dmg head</td>
+                  <td class="redtds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Reload Time</td>
+                  <td class="redtds">&nbsp;Name</td>
+                  <td class="redtd">&nbsp;Draw time</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Shield C(50)</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Shield R(50)</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Shield E(75) </td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">Shield L(100)</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+          <div class="respo" id="respoPeace">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavPeace()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="redtd">&nbsp;Weapon</td>
+                  <td class="redtds">&nbsp;Peacekeeper</td>
+                  <td class="redtd">&nbsp;Fire mode</td>
+                  <td class="redtds"> &nbsp;name</td>
+                  <td class="redtd">&nbsp;Ammo</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Mag size</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Body Dmg</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">Leg Dmg</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Head Dmg</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Total Dmg body</td>
+                  <td class="redtds">&nbsp;Name</td>
+                  <td class="redtd"> &nbsp;Total dmg head</td>
+                  <td class="redtds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Reload Time</td>
+                  <td class="redtds">&nbsp;Name</td>
+                  <td class="redtd">&nbsp;Draw time</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Shield C(50)</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Shield R(50)</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Shield E(75) </td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">Shield L(100)</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+          <div class="respo" id="respoMoz">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavMoz()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="redtd">&nbsp;Weapon</td>
+                  <td class="redtds">&nbsp;Mozambique</td>
+                  <td class="redtd">&nbsp;Fire mode</td>
+                  <td class="redtds"> &nbsp;name</td>
+                  <td class="redtd">&nbsp;Ammo</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Mag size</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Body Dmg</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">Leg Dmg</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Head Dmg</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Total Dmg body</td>
+                  <td class="redtds">&nbsp;Name</td>
+                  <td class="redtd"> &nbsp;Total dmg head</td>
+                  <td class="redtds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Reload Time</td>
+                  <td class="redtds">&nbsp;Name</td>
+                  <td class="redtd">&nbsp;Draw time</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Shield C(50)</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="redtd">&nbsp;Shield R(50)</td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">&nbsp;Shield E(75) </td>
+                  <td class="redtds">&nbsp;name</td>
+                  <td class="redtd">Shield L(100)</td>
+                  <td class="redtds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+  
+  
+          <div class="respo" id="respoProw">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavProw()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="greentd">&nbsp;Weapon</td>
+                  <td class="greentds">&nbsp;Prowler</td>
+                  <td class="greentd">&nbsp;Fire mode</td>
+                  <td class="greentds">&nbsp;Single</td>
+                  <td class="greentd">&nbsp;Ammo</td>
+                  <td class="greentds">&nbsp;Heavy</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Mag size</td>
+                  <td class="greentds">&nbsp;5</td>
+                  <td class="greentd">&nbsp;Body Dmg</td>
+                  <td class="greentds">&nbsp;55</td>
+                  <td class="greentd">Leg Dmg</td>
+                  <td class="greentds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Head Dmg</td>
+                  <td class="greentds">&nbsp;110</td>
+                  <td class="greentd">&nbsp;Total Dmg body</td>
+                  <td class="greentds">&nbsp;275</td>
+                  <td class="greentd">&nbsp;Total dmg head</td>
+                  <td class="greentds">&nbsp;550</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Reload Time</td>
+                  <td class="greentds">&nbsp;2.66</td>
+                  <td class="greentd">&nbsp;Draw time</td>
+                  <td class="greentds">&nbsp;0.9</td>
+                  <td class="greentd">&nbsp;Shield C(50)</td>
+                  <td class="greentds">&nbsp;3/2</td>
+                  </tr>
+                  <tr>
+                  <td class="greentd">&nbsp;Shield R(75)</td>
+                  <td class="greentds">&nbsp;4/2</td>
+                  <td class="greentd">&nbsp;Shield E(100) </td>
+                  <td class="greentds">&nbsp;4/2</td>
+                  <td class="greentd">Shield L(100)</td>
+                  <td class="greentds">&nbsp;4/2</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+          
+          <div class="respo" id="respoP20">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavP20()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="orangetd">Weapon&nbsp;</td>
+                  <td class="orangetds">&nbsp;P2020</td>
+                  <td class="orangetd">&nbsp;Fire mode</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">Ammo</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Mag size</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Body Dmg</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">Leg Dmg</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Head Dmg</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Total Dmg body</td>
+                  <td class="orangetds">&nbsp;Name</td>
+                  <td class="orangetd">&nbsp;Total dmg head</td>
+                  <td class="orangetds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Reload Time</td>
+                  <td class="orangetds">&nbsp;Name</td>
+                  <td class="orangetd">&nbsp;Draw time</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Shield C(50)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Shield R(50)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Shield E(75) </td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">Shield L(100)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+          <div class="respo" id="respoRe">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNavRE()">&times;</a>
+  
+          <table >
+                  <tbody>
+                  <tr >
+                  <td class="orangetd">Weapon&nbsp;</td>
+                  <td class="orangetds">&nbsp;Re-45 Auto</td>
+                  <td class="orangetd">&nbsp;Fire mode</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">Ammo</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Mag size</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Body Dmg</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">Leg Dmg</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Head Dmg</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Total Dmg body</td>
+                  <td class="orangetds">&nbsp;Name</td>
+                  <td class="orangetd">&nbsp;Total dmg head</td>
+                  <td class="orangetds">&nbsp;Name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Reload Time</td>
+                  <td class="orangetds">&nbsp;Name</td>
+                  <td class="orangetd">&nbsp;Draw time</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Shield C(50)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  <tr>
+                  <td class="orangetd">&nbsp;Shield R(50)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">&nbsp;Shield E(75) </td>
+                  <td class="orangetds">&nbsp;name</td>
+                  <td class="orangetd">Shield L(100)</td>
+                  <td class="orangetds">&nbsp;name</td>
+                  </tr>
+                  </tbody>
+                  </table>
+              </div>
+
+
+              <div class="test45">
+                        <button class="test46" onclick="testzo()"> try me</button>
+                        </div>
+                        <div id="testpo" class="test56">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNavG8()">&times;</a>
+                        <div class="background">
+                                <div class="container">
+                                  <div class="screen">
+                                    <div class="screen-header">
+
+                                      <div class="screen-header-right">
+                                        <div class="screen-header-ellipsis"></div>
+                                        <div class="screen-header-ellipsis"></div>
+                                        <div class="screen-header-ellipsis"></div>
+                                      </div>
+                                    </div>
+                                    <div class="screen-body">
+                                      <div class="screen-body-item left">
+                                        <div class="app-title">
+                                          <span>CONTACT</span>
+                                          <span>US</span>
+                                        </div>
+                                        <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+                                      </div>
+                                      <div class="screen-body-item">
+                                        <div class="app-form">
+                                          <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="NAME" value=" data weapon">
+                                          </div>
+                                          <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="EMAIL">
+                                          </div>
+                                          <div class="app-form-group">
+                                            <input class="app-form-control" placeholder="CONTACT NO">
+                                          </div>
+                                          <div class="app-form-group message">
+                                            <input class="app-form-control" placeholder="MESSAGE">
+                                          </div>
+                                          <div class="app-form-group buttons">
+                                            <button class="app-form-button">CANCEL</button>
+                                            <button class="app-form-button">SEND</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                 
+                                </div>
+                              </div>
+                              </div>
+
+
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+      integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk="
+      crossorigin="anonymous"
+    ></script>
+      <script src="grid2.js"></script>
+      <script src="test45.js"></script>
+</body>
+</html>
